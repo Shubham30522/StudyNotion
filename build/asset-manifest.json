@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7853771a.css",
+    "main.js": "/static/js/main.80958a9d.js",
+    "static/media/banner.mp4": "/static/media/banner.8e687823b1422880cc3f.mp4",
+    "static/media/TimelineImage.png": "/static/media/TimelineImage.55e0ffc6ace4cb7052a8.png",
+    "static/media/Instructor.png": "/static/media/Instructor.2c2a640451ad2b51f5df.png",
+    "static/media/FoundingStory.png": "/static/media/FoundingStory.e010f1024c90b16fcac8.png",
+    "static/media/bghome.svg": "/static/media/bghome.375fb56613960391899c.svg",
+    "static/media/Compare_with_others.png": "/static/media/Compare_with_others.ee520245e99b0930a856.png",
+    "static/media/Plan_your_lessons.png": "/static/media/Plan_your_lessons.49427db94e3eaa8bf7b6.png",
+    "static/media/rzp_logo.png": "/static/media/rzp_logo.40f7e95e1d989e7e3324.png",
+    "static/media/signup.webp": "/static/media/signup.acaf50bcb11d9aec44b4.webp",
+    "static/media/Know_your_progress.png": "/static/media/Know_your_progress.3ef68b757d89ba7afb0c.png",
+    "static/media/login.webp": "/static/media/login.5eeb0b81544a40330d4b.webp",
+    "static/media/aboutus1.webp": "/static/media/aboutus1.86606deea209badf5925.webp",
+    "static/media/aboutus2.webp": "/static/media/aboutus2.0a1cd797ce3a69e81830.webp",
+    "static/media/aboutus3.webp": "/static/media/aboutus3.f5cfba861877ea03735d.webp",
+    "static/media/Logo2.svg": "/static/media/Logo2.df8d448dc12dd42a33fc1d44465269db.svg",
+    "static/media/Logo1.svg": "/static/media/Logo1.dd275bf48a48dd2f8ffdce8a011abcda.svg",
+    "static/media/Logo3.svg": "/static/media/Logo3.64df6c7646646e6e42404af82abdff8d.svg",
+    "static/media/Logo4.svg": "/static/media/Logo4.d04de99d7d552ff1b82376cddb12fa70.svg",
+    "index.html": "/index.html",
+    "main.7853771a.css.map": "/static/css/main.7853771a.css.map",
+    "main.80958a9d.js.map": "/static/js/main.80958a9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7853771a.css",
+    "static/js/main.80958a9d.js"
+  ]
+}

@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:["http://localhost:3000", "https://study-notion-lake.vercel.app","https://studynotion.tech"],
+		origin:["http://localhost:3000", "https://studynotion-lovat.vercel.app/"], // update with my frontend url
 		credentials:true,
 	})
 )
