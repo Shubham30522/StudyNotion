@@ -25,10 +25,10 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:["http://localhost:3000", "https://studynotion-lovat.vercel.app/"], // update with my frontend url
-		credentials:true,
+		origin: "*",
+		credentials: true,
 	})
-)
+); // Now, The backend accepts requests from any frontend URL. 
 
 app.use(
 	fileUpload({
