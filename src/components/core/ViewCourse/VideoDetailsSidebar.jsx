@@ -8,7 +8,7 @@ import { AiOutlineDown } from "react-icons/ai";
 import { MdOutlineArrowBackIosNew } from "react-icons/md";
 
 const VideoDetailsSidebar = ({ setReviewModal }) => {
-  const [activeStatus, setActiveStatus] = useState("");
+  const [activeStatus, setActiveStatus] = useState([]);
   const [videoBarActive, setVideoBarActive] = useState("");
   const navigate = useNavigate();
   const location = useLocation();
@@ -40,8 +40,8 @@ const VideoDetailsSidebar = ({ setReviewModal }) => {
           currentSubSectionIndex
         ]?._id;
 
-      //setCurrent section
-      setActiveStatus(courseSectionData?.[currentSectionIndex]?._id);
+      // Inside your useEffect or wherever activeStatus is updated
+      setActiveStatus(courseSectionData?.[currentSectionIndex]?._id ? [courseSectionData[currentSectionIndex]._id] : []);
       //set Current Subsection
       setVideoBarActive(activeSubSectionId);
     })();
